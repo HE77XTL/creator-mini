@@ -11,6 +11,14 @@
         "navigationBarTitleText": "Weixin",
         "navigationBarTextStyle": "black"
     },
-    "style": "v2",
+    "setting": {
+        "packNpmManually": true,
+        "packNpmRelationList": [
+            {
+                "packageJsonPath": "./package.json",
+                "miniprogramNpmDistDir": "./"
+            }
+        ]
+    },
     "sitemapLocation": "sitemap.json"
 }
