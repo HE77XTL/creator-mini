@@ -2,4 +2,5 @@
 <view>
   <view>user</view>
   <van-button type="primary">按钮</van-button>
+  <base-button></base-button>
 </view>
